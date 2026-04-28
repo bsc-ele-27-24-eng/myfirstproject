@@ -5,12 +5,10 @@ int main (){
     int secondvalue;
 
     int * ppointer = nullptr;
-    //assign pointer with the address of firstvalue
     ppointer = &firstvalue;
-    *ppointer = 10; // indirection
-    //assign pointer with the address of secondvalue
+    *ppointer = 10; 
     ppointer = &secondvalue;
-    *ppointer = 20; //indirection
+    *ppointer = 20; 
     cout << "firstvalue is " << firstvalue << '\n';
     cout << "secondvalue is " << secondvalue << '\n';
     return 0;
